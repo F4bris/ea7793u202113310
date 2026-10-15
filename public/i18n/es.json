@@ -1,0 +1,61 @@
+{
+  "toolbar": {
+    "app-title": "TrailQuest Adventure Camp Management Platform",
+    "logo-alt": "TrailQuest logo",
+    "toggle-menu": "Toggle navigation menu",
+    "language": "Language"
+  },
+  "nav": {
+    "main-navigation": "Main navigation",
+    "home": "Home",
+    "new-reservation": "New Reservation"
+  },
+  "home": {
+    "title": "Home",
+    "subtitle": "Smart Reservations and Capacity Management for Adventure Camps",
+    "my-adventure-camps": "My Adventure Camps"
+  },
+
+  "page-not-found": {
+    "title": "Pagina no encontrada",
+    "message": "La ruta {{path}} no fue encontrada.",
+    "back-home": "Regresar a inicio"
+  },
+
+  "sports-center-summary": {
+    "empty": "Vacio",
+    "total-participants": "Total de participantes",
+    "available-capacity": "Capacidad disponible"
+  },
+  "my-adventure-camps": {
+    "load-error": "Adventure camps no pudo recargar."
+  },
+
+  "activity-types": {
+    "hiking": "hiking",
+    "trekking": "trekking",
+    "camping": "camping",
+    "climbing": "climbing"
+  },
+
+  "new-reservation": {
+    "title": "Nueva reservacion",
+    "subtitle": "Registrar participantes a tu Campamento de Aventura",
+    "activity-type": "Tipo de actividad",
+    "participant-name": "Nombre de participante",
+    "participants": "Participantes",
+    "available-capacity": "Capacidad disponible",
+    "create": "Crear",
+    "cancel": "Cancelar",
+    "saving": "Guardando...",
+    "weather-loading": "Consultando el clima...",
+    "weather-temperature": "Temperatura actual",
+    "weather-error": "No se pudo obtener el clima. No se puede crear la reserva hasta que esté disponible.",
+    "error-activity-required": "Selecciona una actividad.",
+    "error-name-required": "Ingresa el nombre del participante.",
+    "error-participants-invalid": "Ingresa un número entero mayor que 0.",
+    "error-participants-capacity": "Los participantes superan la capacidad disponible.",
+    "error-capacity": "Ya no hay capacidad suficiente. Revisa el número de participantes.",
+    "error-save": "No se pudo guardar la reserva. Intentalo nuevamente."
+  }
+}
