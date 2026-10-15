@@ -3,7 +3,7 @@ import { AdventureCamps} from './adventure-camps.entity';
 
 export class AdventureCampsOccupancy {
   constructor(
-    readonly sportsCenter: AdventureCamps,
+    readonly adventureCamps: AdventureCamps,
     readonly reservations: Reservation[],
   ) {}
 
@@ -12,7 +12,7 @@ export class AdventureCampsOccupancy {
   }
 
   get availableCapacity(): number {
-    return this.sportsCenter.capacity - this.totalParticipants;
+    return this.adventureCamps.capacity - this.totalParticipants;
   }
 
   get isEmpty(): boolean {
